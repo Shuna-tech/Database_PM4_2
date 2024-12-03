@@ -207,14 +207,6 @@ public class Driver {
                                           equippableItemsDao.getById(equippableItems.get(i).getItemID()))
                 );
                 
-            	
-                System.out.println("Created character equipment for: " + 
-                        equipment.getCharacter() + ", item: " + equipment.getItem());
-                System.out.println("equippableItem id: " + 
-                		equippableItems.get(i).getItemID());
-                System.out.println("item id: " + 
-                		items.get(i).getItemID());
-                
                 //System.out.println("Created character equipment for: " + 
 //                                 equipment.getCharacterInfo().getFirstName());
             }

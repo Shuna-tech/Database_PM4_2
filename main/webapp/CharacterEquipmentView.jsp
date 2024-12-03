@@ -17,8 +17,6 @@
         List<EquipmentSlots> allSlots = (List<EquipmentSlots>) request.getAttribute("allSlots");
         List<CharacterEquipments> equipmentList = (List<CharacterEquipments>) request.getAttribute("equipmentList");
     %>
-    <p>Character ID: <%= character != null ? character.getCharacterID() : "Not Found" %></p>
-    <p>Player ID: <%= character != null ? character.getPlayer().getPlayerID() : "Not Found" %></p>
     <p>First Name: <%= character != null ? character.getFirstName() : "Not Found" %></p>
     <p>Last Name: <%= character != null ? character.getLastName() : "Not Found" %></p>
     
